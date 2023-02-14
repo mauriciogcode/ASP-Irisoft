@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Irisoft
+build_property.RootNamespace = Irisoft
+build_property.ProjectDir = C:\Users\maugo\Dropbox\Mis__Proyectos\Proyectos___Estudio\Irisoft\Irisoft\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\maugo\Dropbox\Mis__Proyectos\Proyectos___Estudio\Irisoft\Irisoft
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/Empleados/Borrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEJvcnJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/Empleados/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXENyZWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/Empleados/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/Empleados/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/Laboratorios/Borrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFib3JhdG9yaW9zXEJvcnJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/Laboratorios/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFib3JhdG9yaW9zXENyZWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/Laboratorios/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFib3JhdG9yaW9zXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/Laboratorios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFib3JhdG9yaW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/Tarjetas/Borrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyamV0YXNcQm9ycmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/Tarjetas/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyamV0YXNcQ3JlYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/Tarjetas/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyamV0YXNcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/Tarjetas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyamV0YXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/VentasDiarias/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFzRGlhcmlhc1xDcmVhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maugo/Dropbox/Mis__Proyectos/Proyectos___Estudio/Irisoft/Irisoft/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ncd2kepzg7

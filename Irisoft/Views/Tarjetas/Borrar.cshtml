@@ -1,0 +1,14 @@
+﻿@model Tarjeta
+@{
+    ViewData["Title"] = "Borrar Tarjeta";
+}
+
+<h1>Borrar Tarjeta</h1>
+<h5>Desea eliminar @Model.Nombre</h5>
+
+<form asp-action="BorrarTarjeta">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a class="btn btn-secondary" asp-action="Index">Cancelar</a>
+
+</form>

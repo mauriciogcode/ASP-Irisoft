@@ -1,0 +1,116 @@
+﻿@model VentaDiaria
+@{
+
+    ViewData["Title"] = "Crear venta diaria";
+}
+
+<h1>Crear Venta Diaria</h1>
+<h5>Se pueden registrar ventas de lentes de sol, accesorios y lentes graduados. Datos del cliente, vendedor, etc</h5>
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-controller="VentasDiarias" asp-action="Crear">
+
+    <div class="mb-3">
+
+        <label asp-for="ClienteNombre" class="form-label"></label>
+        <input type="text" asp-for="ClienteNombre" class="form-control"/>
+        <span asp-validation-for="ClienteNombre" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+
+        <label asp-for="Cantidad" class="form-label"></label>
+        <input type="number" asp-for="Cantidad" class="form-control"/>
+        <span asp-validation-for="Cantidad" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+
+        <label asp-for="IdTipoCristal" class="form-label"></label>
+        <input type="number" asp-for="IdTipoCristal" class="form-control"/>
+        <span asp-validation-for="IdTipoCristal" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+
+        <label asp-for="OrdenLaboratorio" class="form-label"></label>
+        <input type="number" asp-for="OrdenLaboratorio" class="form-control" />
+        <span asp-validation-for="OrdenLaboratorio" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+
+        <label asp-for="IdLaboratorio" class="form-label"></label>
+        <input type="number" asp-for="IdLaboratorio" class="form-control"/>
+        <span asp-validation-for="IdLaboratorio" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+
+        <label asp-for="Armazon" class="form-label"></label>
+        <input type="text" asp-for="Armazon" class="form-control"/>
+        <span asp-validation-for="Armazon" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+
+        <label asp-for="RecibeNombre" class="form-label"></label>
+        <input type="text" asp-for="RecibeNombre" class="form-control"/>
+        <span asp-validation-for="RecibeNombre" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+
+        <label asp-for="IdEmpleado" class="form-label"></label>
+        <input type="number" asp-for="IdEmpleado" class="form-control"/>
+        <span asp-validation-for="IdEmpleado" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+
+        <label asp-for="IdTarjeta" class="form-label"></label>
+        <input type="number" asp-for="IdTarjeta" class="form-control"/>
+        <span asp-validation-for="IdTarjeta" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+
+        <label asp-for="Cuotas" class="form-label"></label>
+        <input type="number" asp-for="Cuotas" class="form-control"/>
+        <span asp-validation-for="Cuotas" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+
+        <label asp-for="MontoSinRecibo" class="form-label"></label>
+        <input type="number" asp-for="MontoSinRecibo" class="form-control"/>
+        <span asp-validation-for="MontoSinRecibo" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+
+        <label asp-for="MontoEfectivo" class="form-label"></label>
+        <input type="number" asp-for="MontoEfectivo" class="form-control"/>
+        <span asp-validation-for="MontoEfectivo" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+
+        <label asp-for="MontoTarjeta" class="form-label"></label>
+        <input type="number" asp-for="MontoTarjeta" class="form-control"/>
+        <span asp-validation-for="MontoTarjeta" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+
+        <label asp-for="MontoTrasferencia" class="form-label"></label>
+        <input type="number" asp-for="MontoTrasferencia" class="form-control"/>
+        <span asp-validation-for="MontoTrasferencia" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+
+        <label asp-for="MontoTotal" class="form-label"></label>
+        <input type="number" asp-for="MontoTotal" class="form-control"/>
+        <span asp-validation-for="MontoTotal" class="text-danger"></span>
+
+    </div>
+
+
+<button type="submit" class="btn btn-primary">Enviar</button>
+
+
+</form>
+
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial"/>
+}

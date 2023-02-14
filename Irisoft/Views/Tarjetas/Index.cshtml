@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Tarjeta>
+@{
+    ViewData["Title"] = "Tarjetas";
+}
+
+<h1>Tarjetas</h1>
+<h2>Gestion de Tarjetas</h2>
+
+<a asp-action="Crear" class="btn btn-primary">Agregar Tarjeta</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre </th>
+            <th>Acciones </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Tarjeta in Model)
+        {
+            <tr>
+                <td>@Tarjeta.Nombre</td>
+                <td>
+                    <a class="btn btn-primary" asp-action="Editar" asp-route-id="@Tarjeta.Id">Editar</a>
+                    <a class="btn btn-danger" asp-action="Borrar" asp-route-id="@Tarjeta.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+

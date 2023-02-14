@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Empleado>
+@{
+    ViewData["Title"] = "Empleados / Vendedores";
+}
+
+<h1>Vendedores</h1>
+
+<h5>Listado de empleados que pueden realizar ventas</h5>
+
+<a asp-action="Crear" class="btn btn-primary">Nuevo Empleado</a>
+
+<table class="table">
+
+    <thead>
+        <tr>
+            <th>Empleados</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var empleado in Model)
+        {
+            <tr>
+                <td>@empleado.EmpleadoNombre</td>
+                <td>
+                    <a class="btn btn-primary" asp-action="Editar" asp-route-id="@empleado.Id">Editar</a>
+                    <a class="btn btn-danger" asp-action="Borrar" asp-route-id="@empleado.Id" >Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
